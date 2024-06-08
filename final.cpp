@@ -321,7 +321,7 @@ int main()
 	int limit = 0;
 
 	// end when goal state is found or puzzle cannot be solved
-	while (limit < 100)
+	while (limit < 500)
 	{
 		// take off frontier vector and add to visited vector
 		visited.push_back(puzzle);
